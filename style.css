@@ -52,8 +52,9 @@ form{
 }
 
 .imp-div{
-    padding-left: 250px;
-    padding-top: 100px;
+width: 1300px;
+margin: 130px auto;
+
 }
 
 .form-button{
@@ -74,10 +75,9 @@ form{
     margin: 0 auto;
 }
 
-.imp-div-logos div{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.imp-div-logos {
+display: flex;
+flex-direction: column;
 }
 
 .footer-div{
@@ -109,9 +109,22 @@ form{
     color: #C4C4C4;
 }
 
-.imp-div-logos{
+
+textarea{
+    resize: none;
+    width: 760px;
+    height: 200px;
+}
+
+.forms-div{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 300px;
+    gap: 10px;
+    
+}
+
+.imp-div-logos div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
 }
